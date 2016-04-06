@@ -1,6 +1,47 @@
-/* General */ 
-
 * {
 	font-family: "Lato light"
 }
+a{
+	text-decoration:none;
+}
+li{
+	text-decoration:none;
+	display:inline-table;
+}
+.bgHeader{
+	background:url(../img/background/hero.jpg);
+	background-size:cover;
+	height:600px;
+}
+.bgHeader .col-6{
+	background-color:(0,0,0,0,0.1);
+	
+}
+.bgHeader i,.bgHeader h3{
+	display:inline-block;
+	color:white;
+	margin-top:20px;
+}
+.bgHeader i{
+	margin-left:50px;
+	font-size:1.17em;
+}
+.bgHeader li{
+	margin:20px 20px;
+}
+.bgHeader nav a{
+	color:#FFFFFF;
+	font-weight: bold;
+}
+.bgHeader nav a:hover{
+	color:#61CDDD;
+}
+.bgHeader p{
 
+	color:white;
+	font-size:16px;
+	margin:30px 25%;
+}
+.bgHeader .title{
+	font-size:50px;
+}
