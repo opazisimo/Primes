@@ -45,3 +45,53 @@ li{
 .bgHeader .title{
 	font-size:50px;
 }
+
+/* ---------------------------------*/
+
+/*contacto */
+
+.bgContact {
+	background: url(../img/background/contactus.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+}
+
+
+/* follow */
+
+.follow {
+	color: #929292;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.follow h1 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #555555;
+}
+
+.social-icon {
+	margin: 5px;
+	font-size: 25px;
+	color: #2a3745;
+}
+
+.follow a {
+	text-decoration: none;
+}
+
+/* footer */
+
+footer {
+	height: 60px;
+	background-color: #1d1d1d;
+	color: #a2a2a2;
+	text-align: center;
+	font-size: 10px;
+	padding-top: 25px;
+}
