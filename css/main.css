@@ -50,6 +50,22 @@ li{
 
 /*contacto */
 
+
+.contact {
+	color: white;
+	padding-top: 50px;
+	font-size: 14px;
+}
+
+.contactHeader {
+	text-align: center;
+}
+
+.contactHeader h1 {
+	margin-bottom: 20px;
+	font-size: 30px; 
+}
+
 .bgContact {
 	background: url(../img/background/contactus.jpg);
 	background-size: cover;
@@ -57,6 +73,7 @@ li{
 	background-position: center;
 	height: 600px;
 }
+
 
 
 /* follow */
