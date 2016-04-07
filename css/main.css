@@ -9,11 +9,13 @@ li{
 	text-decoration:none;
 	display:inline-table;
 }
+.bgHeader, .ctAction, .bgContact {
+	background-repeat: no-repeat;
+	background-position: top-center;
+}
 .bgHeader{
 	background:url(../img/background/hero.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position:top-center;
 }
 .bgHeadBlack{
 	background:rgba(0, 0, 0, 0.6);
@@ -21,27 +23,24 @@ li{
 .bannerText{
 	padding-top:100px;
 	padding-bottom:100px;
-	text-align:center;
 }
-.bannerText div{
-	display:inline-block;
+.button{
 	padding:15px 10px;
+	margin:0 auto;
+	display:inline-block;
 }
 .bUno{
 	background:#35323B;
-	width:150px;
 	border:1px solid #26242B;
 	margin-right:30px;
 	margin-bottom: 10%;
 }
 .bDos{
-	width:110px;
 	border:1px solid #787878;
 	background:rgba(255, 255, 255, 0.1)
 }
 .bgHeader span,.bgHeader h3{
 	display:inline-block;
-	color:white;
 	margin-top:20px;
 	margin-bottom:15px;
 }
@@ -53,14 +52,12 @@ li{
 	margin:20px 20px;
 }
 .bgHeader nav a{
-	color:#FFFFFF;
 	font-weight: bold;
 }
 .bgHeader nav a:hover,.items1 p:first-child,.bgItems2 p:first-child{
 	color:#00c1c0;
 }
 .bannerText p{
-	color:white;
 	font-size:16px;
 	margin:30px 10%;
 }
@@ -69,10 +66,11 @@ li{
 }
 .bannerText p:first-child{
 	font-size:50px;
+}
+.bannerText p:first-child, .bgFeat h1, .bgItems2, .bTres, .bgBlanco, #purchase, .coCust, .cust img{
 	margin-top:50px;
 }
 .items1{
-	text-align:center;
 	margin-left:50px;
 	margin-right:50px;
 	margin-bottom:100px;
@@ -87,12 +85,10 @@ li{
 }
 .bgFeat{
 	background:#f4f4f4;
-	text-align:center;
 	padding-left:29px;
 	padding-bottom: 20px;
 }
 .bgFeat h1{
-	margin-top:50px;
 	margin-bottom:20px;
 }
 .bgFeat img{
@@ -105,7 +101,6 @@ li{
 	margin-right:5px;
 }
 .bgItems2{
-	margin-top:50px;
 	text-align:left;
 	background:#fff;
 	padding-left:100px;
@@ -123,7 +118,6 @@ li{
 	margin-bottom:5px;
 }
 .portfolio{
-	text-align:center;
 	background:#f4f4f4;
 	padding-top:30px;
 	color: #505050;
@@ -134,7 +128,6 @@ li{
 .portfolio li{
 	padding:5px 10px;
 	color:black;
-	width:auto;
 	background:white;
 	margin-left:3px;
 	margin-bottom:10px;
@@ -158,25 +151,14 @@ li{
 .portItem img{
 	width:100%;
 }
-.buttonPort{
+.bPort{
 	background:#2a3745;
-	padding:10px;
-	width:100px;
-	margin:0 auto;
 	margin-top:30px;
 	margin-bottom:10px;
 }
 .ctAction{
 	background:url(../img/background/city.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top-center;
-	height: 350px;
-}
-.ctAction .bgHeadBlack{
-	height:inherit;
-	text-align:center;
-	color:white;
 }
 .ctAction .bgHeadBlack{
 	font-size:1.5em;
@@ -186,32 +168,20 @@ li{
 	margin-bottom:10px;
 }
 .bTres{
-	display:inline-block;
-	padding:10px 10px;
-	width:auto;
-	margin:0 auto;
-	margin-top:50px;
 	background:rgba(255, 255, 255, 0.1);
 	border:1px solid #60608C;
+	margin-bottom: 100px;
 }
 .bTres a{
 	font-size:.7em;
 }
 /* ---------------------------------*/
-
-/*package*/
 .package {
 	background-color: #f4f4f4;
-	padding-top: 30px;
-	padding-bottom: 80px;
-	text-align: center;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding:30px 50px 80px 50px;
 }
 .hPackage {
-	text-align: center;
 	color: #505050;
-	margin-bottom: 50px;
 }
 .bgBlanco {
 	background-color: white;
@@ -224,23 +194,19 @@ li{
 	margin-top: 20px;
 	margin-bottom: 25px;
 }
-.fOscuro {
-	background-color: #2a3745;
-	color: white;
+.fOscuro, .fCyan, .fClaro {
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+.fOscuro {
+	background-color: #2a3745;
 }
 .fClaro {
 	background-color: #f0f0f0;
 	color: #545454;
-	padding-top: 30px;
-	padding-bottom: 30px;
 }
 .fCyan {
 	background-color: #00c1c0;
-	color: white;
-	padding-top: 30px;
-	padding-bottom: 30px;
 }
 .price {
 	font-size: 30px;
@@ -259,49 +225,33 @@ li{
 	background-color: #252e38;
 	padding: 6px 20px;
 	font-weight: bold;
-	margin-top: 50px;
 	margin-bottom: 50px;
 }
-#purchase a {
-	color: white;
-	text-decoration: none;
-}
-
-/* Cust*/
-.cust {
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+.coCust{
+	margin-bottom:50px;
 }
 .cust img {
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
-	margin-top: 50px;
 	margin-bottom: 10px;
 }
 .cust p {
 	line-height: 30px;
 	margin: 0 auto;
 	width: 80%;
-}
-
-/*contacto */ 
+} 
 .bgBlack {
 	background:rgba(0, 0, 0, 0.5);
 }
 .bgContact {
 	background: url(../img/background/contactus.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 .contact {
-	color: white;
 	font-size: 14px;
 }
 .contactHeader {
-	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -321,41 +271,32 @@ li{
 	padding-left: 10%;
 	margin-bottom: 50px;
 }
-.imp1 {
+.imp1, .imp2 {
 	width: 400px;
+	background-color: rgba(44, 44, 44, 0.6);
+	border: none;
+}
+.imp1 {
 	height: 40px;
 	margin-bottom: 10px;
 	margin-top: 10px;
-	background-color: rgba(44, 44, 44, 0.6);
-	border: none;
-	color: white;
 }
 .imp2 {
-	width: 400px;
 	height: 140px;
 	margin-bottom: 25px;
 	margin-top: 5px;
-	background-color: rgba(44, 44, 44, 0.6);
-	border: none;
-	color: white;
 }
 #enviar {
 	background-color: #00c1c0;
 	padding: 15px 40px; 
 	font-weight: bolder;
 }
-#enviar a {
-	color: white;
-}
 .about-icon {
 	margin-right: 10px;
 }
-
-/* follow */ 
 .follow {
 	color: #929292;
 	font-size: 14px;
-	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 60px;
 }
@@ -369,16 +310,10 @@ li{
 	font-size: 25px;
 	color: #2a3745;
 }
-.follow a {
-	text-decoration: none;
-}
-
-/* footer */
 footer {
-	height: 60px;
 	background-color: #1d1d1d;
 	color: #a2a2a2;
-	text-align: center;
 	font-size: 10px;
 	padding-top: 25px;
+	padding-bottom:25px;
 }
