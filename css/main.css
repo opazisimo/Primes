@@ -14,18 +14,13 @@ li{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:top-center;
-	height:600px;
 }
 
-.bgHeader .col-6{
-	height:100px;
-}
 .bgHeadBlack{
 	background:rgba(0, 0, 0, 0.6);
 }
 .bannerText{
 	text-align:center;
-	height:450px;
 }
 .bannerText div{
 	display:inline-block;
@@ -36,19 +31,20 @@ li{
 	width:150px;
 	border:1px solid #26242B;
 	margin-right:30px;
+	margin-bottom: 10%;
 }
 .bDos{
 	width:110px;
 	border:1px solid #787878;
 	background:rgba(255, 255, 255, 0.1)
 }
-.bgHeader i,.bgHeader h3{
+.bgHeader span,.bgHeader h3{
 	display:inline-block;
 	color:white;
 	margin-top:20px;
 	margin-bottom:15px;
 }
-.bgHeader i{
+.bgHeader span{
 	margin-left:50px;
 	font-size:1.17em;
 }
@@ -92,8 +88,7 @@ li{
 	background:#f4f4f4;
 	text-align:center;
 	padding-left:29px;
-	height:380px;
-
+	padding-bottom: 20px;
 }
 .bgFeat h1{
 	margin-top:50px;
@@ -101,7 +96,6 @@ li{
 }
 .bgFeat img{
 	width:70%;
-	height:250px;
 }
 .bgItems2 p:first-child{
 	display:inline-block;
@@ -224,6 +218,7 @@ li{
 	padding: 15px;
 	border: 1px solid #e3e3e3;
 	box-shadow: 0.5px 0.5px 1px #e5e5e5;
+	margin-bottom: 50px;
 }
 .bgColores {
 	margin-top: 20px;
@@ -288,7 +283,7 @@ li{
 .cust p {
 	line-height: 30px;
 	margin: 0 auto;
-	width: 800px;
+	width: 80%;
 }
 
 /*contacto */ 
@@ -296,13 +291,17 @@ li{
 	background-color: black;
 	opacity: 0.8; 
 	z-index: 0 !important;
-	height: 650px;
-	position: relative;
-	bottom: 50px;
+
+
+}
+.bgContact {
+	background: url(../img/background/contactus.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .contact {
 	color: white;
-	padding-top: 50px;
 	font-size: 14px;
 }
 .contactHeader {
@@ -315,22 +314,18 @@ li{
 	margin-bottom: 20px;
 	font-size: 30px; 
 }
-.bgContact {
-	background: url(../img/background/contactus.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 650px;
-}
 .about-cont {
 	line-height: 20px;
+	margin-bottom: 50px;
+	padding-left: 10%;
 }
 .about-cont p {
-	width: 400px;
+	width: 80%;
 }
 
 .formCont {
-	padding-left: 125px;
+	padding-left: 10%;
+	margin-bottom: 50px;
 }
 .imp1 {
 	width: 400px;
