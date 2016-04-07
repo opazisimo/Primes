@@ -1,4 +1,4 @@
-* {
+*{
 	font-family:"Lato", sans-serif;
 }
 a{
@@ -15,11 +15,12 @@ li{
 	background-repeat: no-repeat;
 	background-position:top-center;
 }
-
 .bgHeadBlack{
 	background:rgba(0, 0, 0, 0.6);
 }
 .bannerText{
+	padding-top:100px;
+	padding-bottom:100px;
 	text-align:center;
 }
 .bannerText div{
@@ -45,7 +46,7 @@ li{
 	margin-bottom:15px;
 }
 .bgHeader span{
-	margin-left:50px;
+	margin-left:5%;
 	font-size:1.17em;
 }
 .bgHeader li{
@@ -199,7 +200,6 @@ li{
 /* ---------------------------------*/
 
 /*package*/
-
 .package {
 	background-color: #f4f4f4;
 	padding-top: 30px;
@@ -288,11 +288,7 @@ li{
 
 /*contacto */ 
 .bgBlack {
-	background-color: black;
-	opacity: 0.8; 
-	z-index: 0 !important;
-
-
+	background:rgba(0, 0, 0, 0.5);
 }
 .bgContact {
 	background: url(../img/background/contactus.jpg);
@@ -308,7 +304,6 @@ li{
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
-
 }
 .contactHeader h1 {
 	margin-bottom: 20px;
@@ -322,7 +317,6 @@ li{
 .about-cont p {
 	width: 80%;
 }
-
 .formCont {
 	padding-left: 10%;
 	margin-bottom: 50px;
@@ -344,7 +338,6 @@ li{
 	background-color: rgba(44, 44, 44, 0.6);
 	border: none;
 	color: white;
-
 }
 #enviar {
 	background-color: #00c1c0;
@@ -389,4 +382,3 @@ footer {
 	font-size: 10px;
 	padding-top: 25px;
 }
-*/
